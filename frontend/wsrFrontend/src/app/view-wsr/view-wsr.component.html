@@ -1,0 +1,43 @@
+<h1 class="text-center">Tasks</h1>
+<div class="container">
+<table class="table">
+    <thead>
+        <tr>
+            
+            <th>Employee Id</th>
+            <th>Employee Name</th>
+            <th>Employee Email Address</th>
+            <th>Week Start Date</th>
+            <th>Week End Date</th>
+            <th>Working With</th>
+            <th>Manager Name</th>
+            <th>Task</th>
+            <th>Time</th>
+            <th>Remarks</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr *ngFor="let task of tasks">
+         
+          
+            <td>{{task.empId}}</td>
+            <td>{{task.empName}}</td>
+            <td>{{task.empEmailAddress}}</td>
+            <td>{{task.weekStartsfrom}}</td>
+            <td>{{task.weekEnddate}}</td>
+            <td>{{task.workingWith}}</td>
+            <td>{{task.managerName}}</td>
+            <td>{{task.task}}</td>
+            <td>{{task.task1Time}}</td>
+            <td>{{task.task1Remarks}}</td>
+       
+        </tr>
+
+    </tbody>
+
+
+</table>
+
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

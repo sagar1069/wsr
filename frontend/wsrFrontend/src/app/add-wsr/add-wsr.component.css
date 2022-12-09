@@ -1,0 +1,16 @@
+.Title{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    
+}
+.col-form-label{
+    height: 70px;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}

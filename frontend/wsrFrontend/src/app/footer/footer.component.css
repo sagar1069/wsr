@@ -1,0 +1,20 @@
+.nav {
+    position:sticky;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(201,255,211,255);
+  
+  }
+  .nav-link{
+    margin-left: 10px;
+    color: black;
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .rights{
+    margin-left: 1300px;
+    font-size: 26px;
+    color: blue;
+}
